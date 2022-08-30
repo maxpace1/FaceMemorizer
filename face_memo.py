@@ -39,7 +39,7 @@ batch_size = int(input(">>> How many faces do you want to learn at a time? "))
 n_batches = (len(faces) + batch_size - 1) // batch_size
 
 for i in range(n_batches):
-  print(f"Round {i}!")
+  print(f"Round {i + 1}!")
   batch = faces[i * batch_size : (i+1) * batch_size]
   while True:
     errs = quiz_batch(batch)
