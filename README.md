@@ -1,6 +1,6 @@
 # Face Memorizer
 A program to help you remember people's faces!
-Simply put all the face images you'd like to learn in a subfolder of the projcet directory titled `/faces` and run the script.
+Simply put all the face images you'd like to learn in a subfolder of the project directory titled `/faces` and run the script.
 All images must follow the naming format "FirstName_LastName.jpeg".
 
 ### Using the program
